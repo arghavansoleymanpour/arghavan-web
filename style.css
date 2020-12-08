@@ -216,20 +216,88 @@ align-items: center;
     height: 100%;
     border-radius: 10px 0 0 10px;
     color: #fb815e;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
     
     border-color:#fb815e; 
 }
 .search1{
+    color:white ;
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
-    margin-right: 75px;
-    color: white;
+    justify-content: center;
+    align-items: center;
     font-size: larger;
-  
+
 }
 .search:hover{
-    color:#fa5a2c ;
-    cursor: pointer; 
+    color: #000;
+    cursor: pointer;
+}
+  
 
+.search:hover{
+    color: black;
+    cursor: pointer;
+
+}
+   
+    
+
+
+
+
+
+.expertise {
+    background-color:white;
+    width: 100%px;
+    height:40px ;
+   
+}
+.epertiseText{
+    color: black;
+    display: flex;
+    direction: rtl;
+    margin-right: 125px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+.seeEveryOne{
+    counter-reset: black;
+  width: 20%;
+  height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+ 
+
+
+}
+.see{
+    color:#1780df;
+    margin-right: 75px;
+    margin-bottom: 10px;
+    display: flex;
+  
+  
+}
+.icon-left-open{
+    display: flex;
+    color: #1780df;
+   
+}
+.seeEveryOne span:hover{
+    color:#fb815e; 
+    cursor: pointer;
+}
+.seeEveryOne:hover{
+    color:#fb815e;
+    cursor: pointer;
+}
+.icon-left-open:hover{
+    color: #fb815e;
+    cursor: pointer;
 }
