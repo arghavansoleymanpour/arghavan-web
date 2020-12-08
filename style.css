@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #e5f2fe;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.headerContainer{
+    height: 100%;
+    width: 80%;
+    display:flex ;
+    flex-direction: row-reverse;
+
+
+}
+.headerTextContainer{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+p{
+
+    direction: rtl;
+}
+.headerIcon{
+  font-size: 20px;
+  margin-left: 10px;
+  color: #1780df;
+  
+
+}
+.headerIcon:hover{
+    color: #ee6b64;
+    cursor: pointer;
+}
+.headerText{
+    color: #6e7794;
+
+}
+.headerButton{
+    background-color:#1780df;
+    height: 75%1;
+    width:15%;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin: 8px 0px;
+    margin-right: auto;
+
+
+}
+.menuContainer{
+    
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 85%;
+    margin: 0px auto;
+
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+
+}
+.menu li{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #3b4157;
+    width: 15%;
+}
+.menuImage{
+    margin-left: 30px;
+
+}
+.menuItems{
+    margin-top: 20px;
+    
+}
+.menuButton{
+    margin-top: 20px;
+    margin-right: auto;
+    background-color:#ededed;
+    height: 40%;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+
+ 
+}
+.loginIcon{
+    color: #1780df;
+    margin-right: 7px;
+    transform: rotateY(180deg)
+
+}
+.menuButtonText{
+    color: #1780df;
+}
+.menuButton:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.menu li:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.menuButton span:hover{
+    color: red;
+
+}
+.searchContainer{
+
+    height: 300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.searchText{
+    background-image: url(/5ef8034.png);
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    background-color:#1780df;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+   flex-direction: column; 
+}
+.searchTitle{
+    color: white;
+    margin:40px;
+
+   
+  
+  
+}
+.searchBar{
+    background-color:white;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 0 10px 10px 0;
+
+align-items: center;
+
+
+}
+.searchBarInput{
+    height: 100%;
+    width: 60%;
+    direction: rtl;
+    border-radius: 0 10px 10px 0;
+    border: none;
+   
+    
+}
+.icon-location{
+    color: #acadaf;
+    border-right:1px solid #ededed ;
+    margin-right: 10px;
+    
+    
+   
+
+
+}
+.secondPart{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20%;
+  
+}
+.Location{
+    color:#6c757d;
+    margin-left: 70px;
+    margin-right: 25px;
+    
+
+
+}
+.icon-angle-down{
+    color: #acadaf;
+   
+
+
+}
+.search{
+    background-color:#fb815e;
+    width:20% ;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    color: #fb815e;
+    
+    border-color:#fb815e; 
+}
+.search1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 75px;
+    color: white;
+    font-size: larger;
+  
+}
+.search:hover{
+    color:#fa5a2c ;
+    cursor: pointer; 
+
+}
