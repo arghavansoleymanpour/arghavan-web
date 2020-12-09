@@ -1,8 +1,16 @@
-*{
+
+@font-face {
+    font-family: 'iransans';
+    src:  url('IranianSans.ttf') format('truetype')
+  }
+  *{
     margin: 0;
     padding: 0;
+    font-family: "iransans";
 }
+
 .header{
+    font-size: 12px;
     background-color: #e5f2fe;
     height: 70px;
     width: 100%;
@@ -100,6 +108,7 @@ p{
     background-color:#ededed;
     height: 40%;
     width: 700px;
+
     justify-content: center;
     align-items: center;
     border-radius: 100px;
@@ -160,7 +169,6 @@ p{
   
 }
 .searchBar{
-    background-color:white;
     width: 80%;
     height: 20%;
     display: flex;
@@ -191,9 +199,13 @@ align-items: center;
 
 }
 .secondPart{
+    background-color: white;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
     width: 20%;
+    height: 100%;
   
 }
 .Location{
@@ -238,9 +250,9 @@ align-items: center;
 }
   
 
-.search:hover{
-    color: black;
+.search:hover,.search1:hover{
     cursor: pointer;
+    background-color: red;
 
 }
    
@@ -302,38 +314,334 @@ align-items: center;
     cursor: pointer;
 }
 .menuContainer2{
-    background-color: tomato;
+   
     height: 250px;
     display: flex;
-    flex-direction: row-reverse;
-    
+   flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0px auto;
 
 }
-.menuExpertise li{
+.menuExpertise>li{
+    border: 1px solid rgba(0,0,0,.125);
     display: flex;
-    flex-direction: row-reverse;
-    color: #3b4157;
-    width: 70%;
-
-   
-   
-  
-    
+    flex-direction: column-reverse;
+    height: 125px;
+align-items: center;   
+}
+.menuExpertise>li:hover{
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+    cursor: pointer;
 }
 .menuExpertise{
 
     list-style: none;
     display: flex;
-    flex-direction: row-reverse;
+   flex-direction: row-reverse;
     width: 100%;
     height: 80px;
-    align-items: center;
+  
     margin: 0px auto;
+    justify-content: space-evenly;
 
 }
 .orthopedics{
- 
 
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.textOrthopedics{
+  color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+}
+.image{
+background-color: #e8c9fd;
+width:90px;
+height:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+ 
+}
+
+
+.orthopedics:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+.textOrthopedics:hover{
+  
+    cursor: pointer;
+}
+image:hover{
+   
+    cursor: pointer;
+}
+.urologys{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+}
+
+.textUrology{
+    color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+}
+.image2{
+    background-color:#fcbaba ;
+width:90px;
+height:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+}
+.urologys:hover{
+color: chartreuse;
+cursor: pointer;
+
+}
+.skin{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+}
+
+.textSkin{
+    color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+}
+.image3{
+    background-color:#b3e8ca;
+    width:90px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.gynecology{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+
+}
+.textGynecology{
+    color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+
+}
+.image4{
+    background-color:#abc2d8;
+    width:90px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.internal{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+
+}
+.textInternal{
+    color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column-reverse;
+   margin-bottom: 5px;
+   justify-content: center;
+   align-items: center;
+}
+.image5{
+    background-color:#fbcbee;
+    width:90px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ent{
+
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+
+}
+.textENT{
+    color: #3b4157;
+    display: flex;
+   flex-direction: column-reverse;
+   margin-top: 30px;
+
+}
+.image6{
+    background-color:#c5e1fb;
+    width:90px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.neurology{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    border-radius: 20px;
+   
+}
+.tectNeurology{
+    color: #3b4157;
+    display: flex;
+   
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row-reverse;
+   margin-bottom: 5px;
+   justify-content: center;
+   align-items: center;
+}
+.image7{
+    background-color:#fdcdb0;
+    width:90px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    display: flex;
+ flex-direction: column-reverse; 
+}
+.neurology:hover{
+    cursor: pointer;
+}
+.neurology::shadow{
+    color: chartreuse;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+
+
+
+.secondPage{
+
+display: flex;
+justify-content: center;
+height: 700px;
+
+
+}
+.mainBox{
+    width: 82%;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.rightBox{
+   
+    display: flex;
+    align-items: center;
+    height: 100%;
+direction: rtl;
+    width: 50%;
+   
+}
+.textOfRightBox h3{
+    color: black;
+    margin-bottom: 30px;
+}
+.leftBox{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.smallBox{
+    padding: 10px;
+    background-color: #e5f2fe;
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-bottom: auto;
+    border-radius: 20px;
+    
+
+}
+.bottomBox{
+    margin-top: auto;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+
+}
+.seeComment{
+    margin-right: auto;
+}
+
+.nameDr{
+    font-size: large;
+    direction: rtl;
+    margin-right: 10px;
+}
+.expertiseOfDr{
+    font-size: large;
+    margin-right: 20px;
+}
+.seeComment{
+    background-color:#fb815e ;
+    font-size: large;
+    border-radius: 20px;
+}
+.seeComment:hover{
+    color: #fd7e14;
+    cursor: pointer;
+}
+.iconImage{
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    
+}
+.goodDr{
+    margin-top: 50px;
+}
+.imageDoctor{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.expertiseOfDr{
+    margin-right: 1px;
+    font-size: 15px;
 }
